@@ -1,0 +1,72 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "da2b8726-427b-4238-9079-328cbe7f9e97": {
+        "id": "da2b8726-427b-4238-9079-328cbe7f9e97",
+        "parent": null,
+        "name": "SigmaVCSMergePOC",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "f4939cdc-3614-4d0a-b221-637e6e647ca7"
+        ],
+        "isRemovable": false,
+        "filePath": "SigmaVCSMergePOC"
+      },
+      "f4939cdc-3614-4d0a-b221-637e6e647ca7": {
+        "id": "f4939cdc-3614-4d0a-b221-637e6e647ca7",
+        "parent": "da2b8726-427b-4238-9079-328cbe7f9e97",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SigmaVCSMergePOC/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "da2b8726-427b-4238-9079-328cbe7f9e97",
+    "openFiles": [
+      "f4939cdc-3614-4d0a-b221-637e6e647ca7"
+    ],
+    "currentFileId": "f4939cdc-3614-4d0a-b221-637e6e647ca7",
+    "resources": {},
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "lambdaId": "f4939cdc-3614-4d0a-b221-637e6e647ca7"
+  },
+  "PROJECT_META": {
+    "projectName": "SigmaVCSMergePOC",
+    "projectDescription": "POC project for Sigma VCS merge",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1545209694742
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "SigmaVCSMergePOC",
+      "url": "https://github.com/sigmaidetest/SigmaVCSMergePOC"
+    }
+  }
+}
