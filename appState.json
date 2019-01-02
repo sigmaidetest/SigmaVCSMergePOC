@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "SigmaVCSMergePOC/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed!\"});\n}",
         "triggers": [],
         "config": {
           "runtime": "nodejs8.10",
@@ -60,7 +60,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1545209694742
+    "lastSave": 1546416687977
   },
   "VCS_STATE": {
     "provider": "GitHub",
