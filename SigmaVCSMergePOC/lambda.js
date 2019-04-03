@@ -1,4 +1,4 @@
 exports.handler = function(event, context, callback) {
     
-    callback(null, {"message": "Modified in local editor"});
+    callback(null, {"message": "Modified in Github editor"});
 }
