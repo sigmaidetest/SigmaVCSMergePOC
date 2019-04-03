@@ -17,12 +17,12 @@
         "id": "f4939cdc-3614-4d0a-b221-637e6e647ca7",
         "parent": "da2b8726-427b-4238-9079-328cbe7f9e97",
         "name": "lambda.js",
-        "type": "LAMBDA_FILE",
+        "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
         "filePath": "SigmaVCSMergePOC/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Removed the whole message!\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Back to default callback message\"});\n}",
         "triggers": [],
         "config": {
           "runtime": "nodejs8.10",
@@ -38,6 +38,10 @@
     ],
     "currentFileId": "f4939cdc-3614-4d0a-b221-637e6e647ca7",
     "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
     "envVariables": [
       {
         "lambdaId": "all",
@@ -60,7 +64,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1546507905801
+    "lastSave": 1554286858918
   },
   "VCS_STATE": {
     "provider": "GitHub",
