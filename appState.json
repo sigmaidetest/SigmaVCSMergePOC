@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "SigmaVCSMergePOC/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Modified with Sigma\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Modified with POC\"});\n}",
         "triggers": [],
         "config": {
           "runtime": "nodejs8.10",
