@@ -1,3 +1,3 @@
 # SigmaVCSMergePOC
 POC project for Sigma VCS merge
-poc-06
+git-07
